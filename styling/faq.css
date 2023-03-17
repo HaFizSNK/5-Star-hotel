@@ -1,0 +1,211 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+       display: flex;
+       height: 40px;
+       background-color: silver;
+       height: 100px;
+     
+       
+       
+          }
+          .m{
+           display: flex;
+   
+   
+          }
+         .navbar ul{
+           margin-left: 680px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       color: aliceblue;
+       gap: 30px;
+   }
+    .navbar ul li{
+       display: flex;
+       list-style: none;
+       color: aliceblue;
+       text-decoration: none;
+   }
+   .m ul li a{
+     
+       font-size: small;
+       text-decoration: none;
+   }
+   .m2{
+
+height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    background-color: darkgrey;
+    }
+    .m2 ul{
+        margin-right: 300px;
+        display: flex;
+        gap: 50px;
+        color: whitesmoke;
+    }
+    .m2 ul li{
+        color: aliceblue;
+        list-style: none;
+      
+    }
+    .m2 ul li a{
+        
+        text-decoration: none;
+    }
+.log3{
+    background-image: url(https://media.radissonhotelsamericas.com/image/radisson-rewards-americas-brandus/promotional/20828-139855-f65547623_3xl.jpg?impolicy=HomeHero);
+    height: 400px;
+        text-decoration: none;
+    justify-content: space-around;
+    position: relative;
+
+}
+.p22{
+    color: aliceblue;
+    margin-left: 50px;
+    padding: 150px;
+    font-size: xx-large;
+    
+}
+.trend{
+    display: flex;
+margin-top: 30px;
+gap: 20px;
+}
+.pul{
+display: flex;
+margin-left: 30px;
+height: 30px;
+}   
+.push{
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    word-wrap:20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+.Btn3{
+    height: 30px;
+    cursor: pointer;
+    border-color: red;
+    color: red;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+
+
+}
+
+.div3{
+    display: flex;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    gap 30px
+}
+.div4{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.aWlzKnZSZoO4AYb99vAgJQHaE8&pid=Api&P=0);
+    height: 250px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    border-radius: 4px;
+    justify-content: space-around;
+    color: antiquewhite;
+    font-size: 25px;
+   width: 100%;
+}
+.div5{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.vCxaJrirwfA8B79gi0IqwQHaE8&pid=Api&P=0);
+    height: 250px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    border-radius: 4px;
+    justify-content: space-around;
+    color: antiquewhite;
+    font-size: 25px;
+width: 100%;    
+}
+.btn4{
+    height: 25px;
+    cursor: pointer;
+    border-color: blue;
+    color:blue;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 4px;
+   
+}
+.simple-card {
+    
+    width: 300px;
+    display: inline-flex;
+    margin-right: 1.5em;
+    border: solid .15em;
+    border-radius: 5px;
+
+   height: 300px;
+   margin-left: 100px;
+   
+}
+  
+  .sc-bor-1 {
+    border-color:darkblue;
+    margin-top: 20px;
+  }
+  
+  .sc-bor-2 {
+    border-color: darkgreen;
+    margin-top: 20px;
+  }
+  
+  .sc-bor-3 {
+    border-color: darkred;
+  }
+  
+  /*Simple Cards header*/
+  
+  .sc-header {
+    background: #f3f3f3;
+    padding: 0.2em 1.5em;
+    border-bottom: solid .15em lightgray;
+  }
+  
+  /*Simple Cards body*/
+  
+  .sc-body {
+    padding: 0.2em 1.5em;
+  }
+  
+  .sc-body-txt-1 {
+    color: #11b4e8;
+  }
+  
+  .sc-body-txt-2 {
+    color: #8c8c8c;
+  }
+  
+  .sc-body-txt-3 {
+    color: #bb0303;
+  }
+  .id{
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+
+  }
