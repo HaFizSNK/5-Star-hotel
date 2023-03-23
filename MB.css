@@ -296,7 +296,13 @@ list-style: none;
     cursor: pointer;
     border-color: red;
     color: red;
+width: 100px;
 
+}
+.btn3:hover{
+    background-color: red;
+    color: white;
+     cursor: pointer;
 }
 .footer{
     background-color:darkgray;

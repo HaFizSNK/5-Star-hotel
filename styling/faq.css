@@ -63,11 +63,13 @@ height:50px;
         text-decoration: none;
     }
 .log3{
-    background-image: url(https://media.radissonhotelsamericas.com/image/radisson-rewards-americas-brandus/promotional/20828-139855-f65547623_3xl.jpg?impolicy=HomeHero);
-    height: 400px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.hUaCDuWAqM2zqcHr0RpNqgHaE8&pid=Api&rs=1&c=1&qlt=95&w=147&h=98);
         text-decoration: none;
     justify-content: space-around;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 .p22{
@@ -108,6 +110,12 @@ height: 30px;
 
 
 }
+.Btn3 a
+  {
+
+    color: #bb0303;
+    text-decoration: none;
+  }
 
 .div3{
     display: flex;

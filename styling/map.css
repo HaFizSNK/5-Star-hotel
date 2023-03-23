@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+       display: flex;
+       height: 40px;
+     background-color:black;
+position: fixed;
+width: 100%;       
+       
+          }
+          m{
+           display: flex;
+background-color: black;   
+   
+          }
+         .navbar ul{
+           margin-left: 680px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       color: aliceblue;
+       gap: 30px;
+   }
+    .navbar ul li{
+       display: flex;
+       list-style: none;
+       color: aliceblue;
+       text-decoration: none;
+   }
+   .m ul li a{
+     
+       font-size: small;
+       text-decoration: none;
+   }
+   

@@ -3,10 +3,10 @@
     margin: 0%;
 
 }
-body{ 
+.background{ 
     background-image: url(https://media.radissonhotelsamericas.com/image/radisson-hotel-nashville-airport/exterior/20828-139363-f66867794_3xl.jpg?impolicy=HomeHero);
-     height: 1000px;
-     margin-bottom: 300px;
+     height: 800px;
+     margin-bottom:0px;
      background-repeat: no-repeat;
 }
 
@@ -68,7 +68,8 @@ color: beige;
 .m3{
     display: block;
     color: black;
-    margin-top: 10px;
+    margin-top: 20px;
+ background-image: linear-gradient( 109.6deg,  rgba(238,234,234,1) 19.1%, rgba(251,247,247,1) 47.7% );;
 }
 .m3 ul{
 list-style: none;
@@ -77,6 +78,8 @@ display: flex;
 font-size:x-small;
 color: black;
 gap: 5px;
+justify-content: center;
+padding: 10px;
 }
 .m3 ul li{
     color: black;
@@ -99,3 +102,752 @@ gap: 5px;
     display: flex;
     gap: 100px;
 }
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: 540px;
+    color: white;
+    
+   
+
+}
+.navbar2{
+display: flex;
+justify-content: center;
+margin-right: 450px;
+margin-top: 50px;
+border-bottom: 0.1mm solid silver ;
+margin-left: 20px;
+padding: 10px;
+}
+.navbar2 ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    text-decoration: none;
+}
+.navbar2 ul li{
+    list-style: none;
+    text-decoration: none;
+    color: red;
+    gap: 20px;
+}
+.navbar2 ul li a{
+    color:silver;
+    cursor: pointer;
+
+
+}
+.navbar2 ul li a::after{
+margin-bottom: 10px;
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 40px;
+    width: 275px;
+    border-bottom: solid 3px #019fb6;
+    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+    opacity: 0;
+}
+.Over{
+    margin-top: 30px;
+    margin-left: 30px;
+    gap: 10px;
+    justify-content: center;
+  
+    font-size: medium;
+}
+.Over::after{
+    margin-bottom: 10px;
+        position:relative;
+        left: 10px;
+        content: '';
+        height: 40px;
+        width: 275px;
+        border-bottom: solid 3px silver;
+        transition: left 250ms ease-in-out, right 250ms ease-in-out;
+        opacity: 0;
+        border-bottom: 2px solid red;
+    }
+    .picture{
+        display: flex;
+    }
+    .pict1{
+         padding: 40px;
+         height: 200px;
+         z-index: 100;
+         display: inline-block;
+         position: absolute;
+    }
+    .pict2{
+        margin-top: 35px;
+        margin-left: 750px;
+        height: 500px;
+        z-index: -100;
+        display: inline-block;
+position: relative;    
+    }
+    .picture2{
+        
+        display: inline-block;
+    }
+    .pict3{
+         padding: 40px;
+        
+       
+         display: inline-block;
+        
+    }
+    .pict4{
+        
+       
+        margin-left: 20px;
+       
+       
+        display: inline-block;
+  
+    }
+    .picture2::after{
+        margin-bottom: 10px;
+            position: absolute;
+            left: 10px;
+            content: '';
+            height: 40px;
+            width: 275px;
+            border-bottom: solid 3px #019fb6;
+            transition: left 250ms ease-in-out, right 250ms ease-in-out;
+            opacity: 0;
+            border-bottom: 2px solid red;
+        }
+    
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: baseline;
+   
+        }
+
+        .flex-item {
+            
+            width: 30%;
+            margin: 1rem;
+            border: 2px #D4D2D4 solid;
+            box-shadow: 5px 5px 5px #aaaaaa;
+        height: 700px;
+        display:  inline-block;
+
+        }
+
+        /* Flexbox for inside of card */
+
+        .inner-flex-container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+
+        .inner-flex-item {
+            padding: 0rem;
+
+        }
+
+        .inner-flex-item img{
+
+            max-width: 100%;
+            max-height: 100%;
+              
+        }
+
+        h1 {
+          text-align: centeer;  
+        }
+
+        p {
+            font-size: 2rem;
+            margin: 2rem;
+        }
+       .btnnn{
+        background-color: red;
+        color: aliceblue;
+        border-radius: 5px;
+        align-items: center;
+        margin-left: 500px;
+        margin-top: 30px;
+        width: 200px;
+        border-color: red;
+        height: 50px;
+        cursor: pointer;
+       }
+       .btnnn:hover{
+        background-color: red;
+        color: white;
+         cursor: pointer;
+    }
+.Book{
+    color: aliceblue;
+    background-color: red;
+    border-radius: 5px;
+border-color: red;
+height: 50px;
+width: 150px;
+margin-left: 50px;
+}
+.background2{
+background-image: url(https://tse4.mm.bing.net/th?id=OIP.M_O9o0G1H1BbtU8Qteg7LwHaEK&pid=Api&P=0);
+height: 300px;
+padding: 20px;
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color: white;
+justify-content: center;
+text-align: left;
+padding: 20px;
+margin-top: 30px;
+}
+.bn{
+    margin-top: 20px;
+    color: white;
+    height: 70px;
+    width: 200px;
+    background-color:transparent;
+border-color:white;
+border-radius: 2px solid white;
+}
+.bn a{
+    text-decoration: none;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.Meetings{
+    display: flex;
+    margin-top: 100px;
+}
+.meet1{
+     margin-top: 50px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     margin-top: 100px;
+    
+}
+.meet2{
+    width: 200px;
+    background-color: red;
+    border-radius: 2px;
+    border-color: red;
+    height: 50px;
+}
+.meet2 a{
+    color: bisque;
+    text-decoration: none;
+    
+}
+.mail{
+    background-color: #aaaaaa;
+    padding: 50px;
+    margin: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+
+}
+.mail a{
+    color: darkred;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20px;
+     font-size: larger;
+}
+.im{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.8W4jwfEhQI_KoQJIIPgVPQHaE8&pid=Api&P=0);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+color: aliceblue;
+
+}
+.mapping{
+    
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.mapp{
+    background-color: red;
+ 
+}
+.map1{
+ color: azure;
+ margin-left: 20px;
+}
+
+.mapp2{
+    display: flex;
+}
+.mapp2 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    font-size: x-large;
+    margin-left: 20px;
+    margin-top: 10px;
+
+
+}
+.mapp2 ul li{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+
+}
+.mapp2 ul li a{
+    text-decoration: none;
+    color: #D4D2D4;
+}
+.con1{
+    color: darkred;
+    font-size: larger;
+    margin-left: 40px;
+    margin-top: 200px;
+}
+.con2{
+    
+    
+    margin-left: 40px;
+    margin-top: 30px ;
+    background-color: silver;
+    padding: 30px;
+    margin: 20px;
+    height: 100px;
+    justify-content:space-around;
+    align-items: center;
+}
+.para{
+    margin-left: 30px;
+    display: flex;
+    overflow-wrap: break-word;
+    word-break: break-all;
+
+}
+.click{
+    margin-top: 20px;
+    color: white;
+    height: 50px;
+    width: 300px;
+    background-color:blue;
+border-color:blue;
+border-radius: 2px solid white;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-left: 600px;
+   
+}
+.click a{
+ align-items: center;
+    text-decoration: none;
+}
+.footer1{
+    background-color: black;
+    color: cornsilk;
+    height: 30px;
+    margin-top: 5px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
+}
+.rev{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.verticalLine {
+    border-color: #aaaaaa;
+    border-left: 2px;
+    height: 200px;
+}
+.Traveller{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.Travel1{
+    color: darkgreen;
+    margin-right: 120px;
+font-size: 24px;
+
+  
+
+}
+.Travel1 ul{
+list-style: none;
+color: black;
+margin-top: 30px;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+}
+
+.Travel1 ul li{
+    gap: 20px;
+    margin-top: 20px;
+    word-spacing: 50px;
+}
+.Travel2{
+    color: darkgreen;
+    margin-right: 120px;
+font-size: 24px;
+  
+
+}
+.Travel2 ul{
+list-style: none;
+color: black;
+margin-top: 20px;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+
+}
+
+
+.Travel2 ul li{
+    gap: 20px;
+    margin-top: 20px;
+    word-spacing: 50px
+}
+.Travel3{
+    color: darkgreen;
+    margin-right: 120px;
+font-size: 24px;
+  
+
+}
+.Travel2 ul li{
+    gap: 20px;
+    margin-top: 20px;
+    word-spacing: 50px
+}
+.Travel3 ul{
+list-style: none;
+color: black;
+margin-top: 20px;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+}
+.Travel3 ul li{
+    gap: 20px;
+    margin-top: 20px;
+    word-spacing: 50px
+
+}
+    .table{
+        display: flex;
+        gap: 500px;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        background-color: silver;
+        text-decoration: none;
+
+    
+    }
+    
+    .t1{
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+    }
+    .t1 ul{
+        gap: 2px;
+        text-decoration: none;
+        align-items: center;
+        list-style: none;
+        justify-content: space-around;
+        text-align: center;
+        
+    }
+    .t1 ul li{
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        text-decoration: none;
+        
+    }
+    .t1 ul li a{
+        text-decoration: none;
+        
+    } 
+    
+  .t2{
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+.t2 ul{
+    gap: 2px;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+     text-align: center;
+    
+}
+.t2 ul li{
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    
+}
+.t2 ul li a{
+    text-decoration: none;
+}
+.btnn{
+    border-color: red;
+    color: red;
+    height: 30px;
+}
+.hot1{
+    display:flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.hot1 ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+}
+.hot1 ul li{
+justify-content: center;
+align-items: center;
+gap 5px
+list-style: none;
+}
+.hot1 ul li a{
+    list-style: none;
+    
+}
+.hot2{
+    display:flex;
+    list-style: none;
+    gap: 20px;
+    height: 20px;
+    
+}
+.hot2 ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+}
+.hot2 ul li{
+justify-content: center;
+align-items: center;
+gap 5px
+list-style: none;
+}
+.hot2 ul li a{
+    list-style: none;
+    
+}
+
+.btn3{
+    margin-top: 10px;
+width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-color: red;
+    color: red;
+    margin-bottom: 20px;
+}
+.btn3:hover{
+    background-color: red;
+    color: white;
+     cursor: pointer;
+}
+
+.footer5{
+    background-color:darkgray;
+    height: 70px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 12px;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .login-box a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+  
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }

@@ -1,0 +1,233 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+       display: flex;
+       height: 40px;
+       background-color: silver;
+       height: 100px;
+     
+       
+       
+          }
+          .m{
+           display: flex;
+   
+   
+          }
+         .navbar ul{
+           margin-left: 680px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       color: aliceblue;
+       gap: 30px;
+   }
+    .navbar ul li{
+       display: flex;
+       list-style: none;
+       color: aliceblue;
+       text-decoration: none;
+   }
+   .m ul li a{
+     
+       font-size: small;
+       text-decoration: none;
+   }
+   .m2{
+
+height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    background-color: darkgrey;
+    }
+    .m2 ul{
+        margin-right: 300px;
+        display: flex;
+        gap: 50px;
+        color: whitesmoke;
+    }
+    .m2 ul li{
+        color: aliceblue;
+        list-style: none;
+      
+    }
+    .m2 ul li a{
+        
+        text-decoration: none;
+    }
+    .log3{
+        background-image: url(https://media.radissonhotels.net/image/personalisation-images/promotional/16256-145212-f73329389_3xl.jpg);
+        height: 400px;
+            text-decoration: none;
+        justify-content: space-around;
+        position: relative;
+        background-size: cover;
+    
+    }
+    .context{
+     color: slategray;
+     margin-left: 50px;
+     font-size: 26px;
+        margin-top: 100px;
+        padding: 20px;    
+    }
+    .cont1{
+        margin-left: 50px;
+        color: black;
+        font-size: 20px;
+    }
+.cont1 li{
+    margin-top: 20px;
+    list-style: decimal;
+
+}
+.mem{
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.table{
+    display: flex;
+    gap: 500px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: silver;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+.t1{
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+.t1 ul{
+    gap: 2px;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.t1 ul li{
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    text-decoration: none;
+    
+}
+.t1 ul li a{
+    text-decoration: none;
+    
+} 
+
+.t2{
+justify-content: space-around;
+align-items: center;
+text-decoration: none;
+}
+.t2 ul{
+gap: 2px;
+text-decoration: none;
+align-items: center;
+list-style: none;
+justify-content: space-around;
+ text-align: center;
+
+}
+.t2 ul li{
+justify-content: center;
+align-items: center;
+gap: 2px;
+
+}
+.t2 ul li a{
+text-decoration: none;
+}
+.btnn{
+border-color: red;
+color: red;
+height: 30px;
+}
+.hot1{
+display:flex;
+list-style: none;
+gap: 20px;
+
+}
+.hot1 ul{
+display: flex;
+text-align: center;
+justify-content: space-around;
+list-style: none;
+gap: 20px;
+}
+.hot1 ul li{
+justify-content: center;
+align-items: center;
+gap 5px
+list-style: none;
+}
+.hot1 ul li a{
+list-style: none;
+
+}
+.hot2{
+display:flex;
+list-style: none;
+gap: 20px;
+height: 20px;
+
+}
+.hot2 ul{
+display: flex;
+text-align: center;
+justify-content: space-around;
+list-style: none;
+gap: 20px;
+}
+.hot2 ul li{
+justify-content: center;
+align-items: center;
+gap 5px
+list-style: none;
+}
+.hot2 ul li a{
+list-style: none;
+
+}
+
+.btn3{
+
+height: 30px;
+cursor: pointer;
+border-color: red;
+color: red;
+margin-bottom: 20px;
+}
+.btn3:hover{
+    background-color: red;
+    color: white;
+     cursor: pointer;
+}
+.footer5{
+background-color:darkgray;
+height: 70px;
+text-align:center;
+align-items: center;
+justify-content: center;
+padding: 20px;
+font-size: 12px;
+}
